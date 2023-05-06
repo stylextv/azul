@@ -36,68 +36,70 @@ Below you will find an example on how to interact with the program.
 
 ```console
 Azul v1.0.0 by StylexTV
+> setup B...B/.OOO./.OKO./.OOO./B...B
+Position set-up.
 > print
-. . . . .
+B . . . B
 . O O O .
 . O K O .
 . O O O .
-. . . . .
+B . . . B
 
 > solve
+B . K . B
 . . . . .
 . . . . .
-. . . . K
 . . . . .
-. . . . .
+B . . . B
 
-4, SOUTH
-. . . . K
-. . . . O
-. . . . .
-. . . . .
-. . . . .
-
-17, NORTH_EAST
-. . . . K
-. . . . .
+14, NORTH_WEST
+B . . . B
 . . . O .
-. . O . .
+. . . . K
 . . . . .
+B . . . B
+
+12, EAST
+B . . . B
+. . . O .
+. . K O .
+. . . . .
+B . . . B
+
+21, NORTH_EAST
+B . . . B
+. . . O .
+. . K . .
+. . O . .
+B O . . B
 
 5, SOUTH_EAST
-. . . . K
-O . . . .
-. O . O .
+B . . . B
+O . . O .
+. O K . .
 . . . . .
-. . . . .
+B O . . B
 
-21, NORTH
-. . . . K
-O . . . .
-. . . O .
-. O . . .
-. O . . .
+23, NORTH_WEST
+B . . . B
+O . . O .
+. . K . .
+. . O . .
+B O . O B
 
-18, WEST
-. . . . K
-O . . . .
-. . . O .
-. . O O .
-. O . . .
-
-12, NORTH_EAST
-. . . . .
+13, SOUTH
+B . . . B
 O . . O .
 . . K O .
 . . O O .
-. O . . .
+B O . . B
 
 11, SOUTH
-. . . . .
+B . . . B
 O . . O .
 . O K O .
 . O O O .
-. . . . .
+B . . . B
 
 7, WEST
 Position solved.
