@@ -6,7 +6,7 @@
 
 ## Overview
 
-Azul is a small program designed to solve the somewhat famous [Kitty Solitaire](https://layton.fandom.com/wiki/Puzzle:Kitty_Solitaire) Puzzle known from the [Professor Layton](https://layton.fandom.com/wiki/Professor_Layton_Wiki) series.
+Azul is a small program designed to solve the somewhat famous [Kitty Solitaire](https://layton.fandom.com/wiki/Puzzle:Kitty_Solitaire) puzzle known from the [Professor Layton](https://layton.fandom.com/wiki/Professor_Layton_Wiki) series.
 The game is played on an `n x m` board consisting of squares arranged in a grid, which are either `empty`, `blocked`, `occupied by a normal piece` or `by a king piece`. Each turn, a piece is selected to jump over a *horizontally*, *vertically* or *diagonally* adjacent piece and land on an empty square. King pieces **cannot** be jumped over. The game is won when only one piece is left, and lost when no more moves are possible but several pieces are left.
 Note that a board with two or more kings is impossible due to the design of the rules, since none of the kings can be removed from the board.
 A solvable board would, for example, look like this:
